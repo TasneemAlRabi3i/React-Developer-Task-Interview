@@ -1,0 +1,104 @@
+.backgroundPage{
+  /* Styles for the Background web page */
+  width: 1440px;
+  height: 1024px;
+  margin: auto;
+}
+
+.headerButtonsBackground{
+  /* Styles for the header buttons background */
+  display: flex;
+  width: 1440px;
+  height: 80px;
+  justify-content: flex-end;
+  align-items: center;
+  
+  gap: 10px;
+  flex-shrink: 0;
+  background: #F5F2EB;
+}
+
+#headerButtons{
+  /* Styles for the header buttons */
+  display: flex;
+  padding: 12px 18px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+}
+
+.signin-container {
+  /* Styles for the sign in container */
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 20px; /* Gap between columns */
+  background-color: #F5F2EB;
+  align-items: center;
+}
+
+/* Styles for the sign-in form */
+/* #signin-form {
+  
+  display: flex;
+  width: 376px;
+  height: 30px;
+  padding: 16px 30px 16px 24px;
+  align-items: center;
+  gap: 10px; 
+  border-radius: 8px; 
+} */
+
+#SignInBox{
+  /* Styles for the sign in box in general */
+  background: #FFF;
+  display: inline-flex;
+  padding: 18px 92px 18px 92px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  border-radius: 30px;
+  width: 50%;
+  margin: 10% 20% 20% 20%;
+}
+
+#Buttons{
+  /* Styles for the user info fields and sign in button */
+  display: flex;
+  width: 376px;
+  height: 30px;
+  padding: 16px 30px 16px 24px;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #5D5D5D;
+  margin-bottom: 10px;
+}
+
+#signInVia{
+  /* Styles for the buttons of sign in via google, apple id and facebook */
+  display: flex;
+  width: 120px;
+  height: 40px;
+  padding: 16px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 40px;
+  border: 1px solid #000;
+
+  color: #000;
+  text-align: center;
+  font-size: 13px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 120%;
+
+  width: 100%;
+  background-color: white;
+}
+
+.image-container {
+  /* Styles for the image container */
+  align-content: center;
+  margin-bottom: 10%;
+}
